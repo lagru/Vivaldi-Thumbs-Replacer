@@ -57,5 +57,5 @@ Close Vivaldi and execute the script again. If you have done everything right it
 
 Vivaldi should now display the new thumbnail.
 
-
-
+## Contact
+If you have any problems, question or improvements feel free to contact me.
