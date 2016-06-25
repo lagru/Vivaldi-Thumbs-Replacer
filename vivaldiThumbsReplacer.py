@@ -5,12 +5,14 @@ import json
 import sqlite3
 
 
-# paths
+# PATHs - edit only these!
+# --------------------------------------------------------------------------- #
 topSites_path = "Path to 'Top Sites' file"
 bookmark_path = "Path to 'Bookmarks' file"
 
 backup_path = "Path to Backup directory"
 customThumbs_path = "Path to directory with thumbnails"
+# --------------------------------------------------------------------------- #
 
 
 def load_speeddial(file_path):
@@ -73,7 +75,7 @@ def update_thumbs(topSites_path, bookmarks, thumbnails):
 
 def main():
     print("Python Script for replacing thumbnails in Vivaldi Speedial")
-    input("\nWARNING: Please make sure that Vivaldi isn't running. Press any key to continue.")
+    input("\nWARNING: Please make sure that Vivaldi isn't running. Press 'Enter' to continue.")
 
     # validate paths
     if not os.path.isfile(bookmark_path):
