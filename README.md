@@ -33,7 +33,7 @@ The names are pretty self explanatory.
 | `topSites_path` | Stores the path to the "Top Sites" file of Vivaldi which stores the thumbnails. | Windows: `C:/Users/<User>/AppData/Local/Vivaldi/User Data/Default/Top Sites` <br/> OS X: `/Users/<User>/Library/Application Support/Vivaldi/Default/Top Sites` |
 | `bookmark_path` | Stores the path to the "Bookmark" file of Vivaldi which stores among other things the bookmark id and its name. | Windows: `C:/Users/<User>/AppData/Local/Vivaldi/User Data/Default/Bookmarks` <br/> OS X: `/Users/<User>/Library/Application Support/Vivaldi/Default/Bookmarks` |
 | `backup_path` | Specifies where (directory) a backup of "Top Sites" is stored. | Windows E.g. `C:/Users/<User>/Desktop/` |
-| `customThumbs_path` | Specifies the directory where the custom thumbnails are stored. | Windows E.g. `C:/Users/<User>/Pictures/Custom Thumbnails/` |
+| `customThumbs_path` | Specifies the directory where the custom thumbnails can be found. | Windows E.g. `C:/Users/<User>/Pictures/Custom Thumbnails/` |
 
 **Tip:** You need to replace `<User>` with your own user name.
 
