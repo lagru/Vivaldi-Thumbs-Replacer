@@ -59,3 +59,7 @@ Vivaldi should now display the new thumbnail.
 
 ## Contact
 If you have any problems, questions or improvements feel free to contact me on this site or under cuiba.github@mailbox.org.
+
+## References
+
+[1] https://vivaldi.net/en-US/forum/all/7257-customising-your-speed-dial-thumbs
