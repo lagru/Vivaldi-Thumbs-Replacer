@@ -1,0 +1,12 @@
+{
+  "thumbsDir_path": "",
+  "backupDir_path": "",
+  "windows": {
+    "topSites_path": "C:/Users/<User>/AppData/Local/Vivaldi/User Data/Default/Top Sites",
+    "bookmarks_path": "C:/Users/<User>/AppData/Local/Vivaldi/User Data/Default/Bookmarks"
+  },
+  "osx": {
+    "topSites_path": "/Users/<User>/Library/Application Support/Vivaldi/Default/Top Sites",
+    "bookmarks_path": "/Users/<User>/Library/Application Support/Vivaldi/Default/Bookmarks"
+  }
+}

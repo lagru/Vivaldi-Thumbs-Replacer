@@ -8,9 +8,9 @@ This script was tested in **Windows** and **OS X** but should also work with **L
 
 
 ## Dependencies
-This Python script was written for and tested with **Python 3.4**. It may work with a different version but if you want to be sure just use this version.
+This Python script was tested with **Python 3.5**. It should work with all Python 3.x versions but if you want to be sure just use this version.
 
-The script depends on the Python packages `os`, `shutil`, `json` and `sqlite3` which are all included in the standard library of Python 3.4.
+The script depends on the Python packages `os`, `shutil`, `json` and `sqlite3` which are all included in the standard library of Python 3.5.
 
 ## Using the script
 
@@ -62,4 +62,4 @@ If you have any problems, questions or improvements feel free to contact me on t
 
 ## References
 
-[1] https://vivaldi.net/en-US/forum/all/7257-customising-your-speed-dial-thumbs
+[1] Vivaldi-Forum: https://vivaldi.net/en-US/forum/all/7257-customising-your-speed-dial-thumbs
