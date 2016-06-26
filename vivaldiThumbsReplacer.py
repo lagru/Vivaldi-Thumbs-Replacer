@@ -34,7 +34,8 @@ def load_thumbs(dir_path):
     Load custom thumbnails in specified directory and return as dictionary
     """
     thumbs = os.listdir(dir_path)
-    return {x[0]: dir_path + "_".join(x) for x in [y.split("_") for y in thumbs]}
+    return {x[0]: dir_path + "_".join(x)
+            for x in [y.split("_") for y in thumbs]}
 
 
 def update_thumbs(topSites_path, bookmarks, thumbnails):
@@ -79,11 +80,11 @@ def main():
 
     # validate paths
     if not os.path.isfile(bookmark_path):
-        print("\nERROR: Vivaldis bookmark file wasn't found under the path '{}'!"
-              .format(bookmark_path))
+        print("\nERROR: Vivaldis bookmark file wasn't found under the path "
+              "'{}'!".format(bookmark_path))
     elif not os.path.isfile(topSites_path):
-        print("\nERROR: Vivaldis 'Top Sites' file wasn't found under the path '{}'!"
-              .format(topSites_path))
+        print("\nERROR: Vivaldis 'Top Sites' file wasn't found under the path "
+              "'{}'!".format(topSites_path))
     elif not os.path.isdir(backup_path):
         print("\nERROR: '{}' is no valid directory!".format(backup_path))
     elif not os.path.isdir(customThumbs_path):
@@ -91,15 +92,18 @@ def main():
 
     # start script
     else:
+        # load files
         bookmarks = load_speeddial(bookmark_path)
         custom_thumbnails = load_thumbs(customThumbs_path)
 
+        # create backup
         shutil.copy(topSites_path, backup_path)
         print("\nCreated backup of 'Top Sites' in '{}'".format(backup_path))
 
         update_thumbs(topSites_path, bookmarks, custom_thumbnails)
 
     input("\nPress 'Enter' to exit.")
+    exit()
 
 
 if __name__ == "__main__":
