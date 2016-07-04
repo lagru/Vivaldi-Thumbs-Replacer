@@ -15,8 +15,7 @@ The script depends on the Python packages `os`, `shutil`, `json` and `sqlite3` w
 ## Using the script
 
 ### Step 1
-You must replace 4 path variables inside the script itself. Look for
-the lines:
+Download the file *vivaldiThumbsReplacer.py* and open it with a text editor. You must replace 4 path variables inside the script itself. Look for the lines:
 
 ```
 topSites_path = "Path to 'Top Sites' file"
