@@ -34,7 +34,10 @@ The names are pretty self explanatory.
 | `backup_path` | Specifies where (directory) a backup of "Top Sites" is stored. | Windows E.g. `C:/Users/<User>/Desktop/` |
 | `customThumbs_path` | Specifies the directory where the custom thumbnails can be found. | Windows E.g. `C:/Users/<User>/Pictures/Custom Thumbnails/` |
 
-**Tip:** You need to replace `<User>` with your own user name.
+**Important:** 
+
+* You need to replace `<User>` with your own user name.
+* When modifying or replacing the paths make sure you only use `/`. You need to replace all backslashes when copying a Windows path from the explorer!
 
 ### Step 2
 Make sure every entry in your speed dial has a descriptive name. This is not required but helps later.
