@@ -3,7 +3,7 @@ Replaces the thumbnails of Vivaldi browser's speed dial with your own.
 
 ## Description
 This scripts automates the replacement of the Vivaldi browser's bookmark thumbnails in the speed dial. The user needs to provide the custom thumbnails for the script himself.
- 
+
 This script was tested in **Windows** and **OS X** but should also work with **Linux** or any other operating system supporting Python and Vivaldi.
 
 
@@ -25,7 +25,7 @@ backup_path = "Path to Backup directory"
 customThumbs_path = "Path to directory with thumbnails"
 ```
 
-The names are pretty self explanatory. 
+The names are pretty self explanatory.
 
 | Name | Description | Path |
 |------|-------------|---------|
@@ -34,7 +34,7 @@ The names are pretty self explanatory.
 | `backup_path` | Specifies where (directory) a backup of "Top Sites" is stored. | Windows E.g. `C:/Users/<User>/Desktop/` |
 | `customThumbs_path` | Specifies the directory where the custom thumbnails can be found. | Windows E.g. `C:/Users/<User>/Pictures/Custom Thumbnails/` |
 
-**Important:** 
+**Important:**
 
 * You need to replace `<User>` with your own user name.
 * When modifying or replacing the paths make sure you only use `/`. You need to replace all backslashes when copying a Windows path from the explorer!
@@ -45,7 +45,7 @@ Make sure every entry in your speed dial has a descriptive name. This is not req
 ### Step 3
 Execute the Python script `vivaldiThumbsReplacer.py`. If everything went right it should look like this:
 
-![1st execution](http://i.imgur.com/jTzfDnY.png) 
+![1st execution](http://i.imgur.com/jTzfDnY.png)
 
 ### Step 4
 Create and save your own thumbnail to be used. An optimal thumbnail has the dimensions **440 x 360 Pixels**. Tipp: The smaller the picture size is, the faster Vivaldi should load it.

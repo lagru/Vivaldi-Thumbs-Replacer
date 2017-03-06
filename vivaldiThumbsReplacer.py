@@ -94,6 +94,12 @@ def main():
     print("Python Script for replacing thumbnails in Vivaldi Speedial")
     input("\nWARNING: Please make sure that Vivaldi isn't running. Press 'Enter' to continue.")
 
+    global backup_path, customThumbs_path
+    if not backup_path[-1] in "/\\":
+        backup_path += "/"
+    if not customThumbs_path[-1] in "/\\":
+        customThumbs_path += "/"
+
     # validate paths
     if not os.path.isfile(bookmark_path):
         print("\nERROR: Vivaldis bookmark file wasn't found under the path "
