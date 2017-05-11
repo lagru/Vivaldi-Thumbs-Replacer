@@ -45,7 +45,7 @@ Make sure every entry in your speed dial has a descriptive name. This is not req
 ### Step 3
 Execute the Python script `vivaldiThumbsReplacer.py`. If everything went right it should look like this:
 
-![1st execution](http://i.imgur.com/jTzfDnY.png)
+![1st execution](https://raw.githubusercontent.com/larsgru/Vivaldi-Thumbs-Replacer/master/pics/first_exec.png)
 
 ### Step 4
 Create and save your own thumbnail to be used. An optimal thumbnail has the dimensions **440 x 360 Pixels**. Tipp: The smaller the picture size is, the faster Vivaldi should load it.
@@ -55,7 +55,7 @@ The name of your thumbnail must be predated with the bookmark id of the respecti
 ### Step 5
 Close Vivaldi and execute the script again. If you have done everything right it should look like this:
 
-![2nd execution](http://i.imgur.com/9nM0wHP.png)
+![2nd execution](https://raw.githubusercontent.com/larsgru/Vivaldi-Thumbs-Replacer/master/pics/second_exec.png)
 
 Vivaldi should now display the new thumbnail.
 
