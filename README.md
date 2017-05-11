@@ -50,7 +50,7 @@ Execute the Python script `vivaldiThumbsReplacer.py`. If everything went right i
 ### Step 4
 Create and save your own thumbnail to be used. An optimal thumbnail has the dimensions **440 x 360 Pixels**. Tipp: The smaller the picture size is, the faster Vivaldi should load it.
 
-The name of your thumbnail must be predated with the bookmark id of the respective thumbnail. You can get the id by simply running the script which lists all ids it found on the speed dial. In the example in Step 3 we can see that we need to name our thumbnail `572_github.png`. (What you write after the `_` doesn't matter.)
+The name of your thumbnail must be predated with the bookmark id of the respective thumbnail. You can get the id by simply running the script which lists all ids it found on the speed dial. In the example in Step 3 we can see that we need to name our thumbnail `216_github.png`. (What you write after the `_` doesn't matter.)
 
 ### Step 5
 Close Vivaldi and execute the script again. If you have done everything right it should look like this:
