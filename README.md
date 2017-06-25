@@ -1,6 +1,9 @@
 # Vivaldi-Thumbs-Replacer
 Replaces the thumbnails of Vivaldi browser's speed dial with your own.
 
+> **Note**  
+> As of [version 1.10](https://vivaldi.com/blog/vivaldi-powers-up-the-start-page-and-adds-docked-dev-tools/) Vivaldi provides the possiblity to change the speed dial thumbnails via its interface. However you can still use this script to automate this process.
+
 ## Description
 This scripts automates the replacement of the Vivaldi browser's bookmark thumbnails in the speed dial. The user needs to provide the custom thumbnails for the script himself.
 
